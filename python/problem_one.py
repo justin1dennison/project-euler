@@ -1,5 +1,3 @@
-from itertools import count, takewhile
-import operator as op
 
 def multiple_of(n):
     return lambda x: x % n == 0
